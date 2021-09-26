@@ -20,7 +20,7 @@ public class EnterPage
 	private WebElement aboutAT;
 	@FindBy(xpath="//span[@class='productVersion']")
 	private WebElement version;
-	
+	//updating this file
 	public EnterPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
